@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header,
+section,
+footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+header {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+#home {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+#home div {
+  flex: 1;
+}
+
+#home h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+#home p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #666;
+  max-width: 400px;
+}
+
+button {
+  padding: 15px 30px;
+  background-color: #e24a4a;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #c93b3b;
+}
+
+#giving {
+  padding: 80px;
+  text-align: center;
+}
+
+#giving h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.giving-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.giving-container div {
+  flex: 1;
+  text-align: center;
+}
+
+.giving-container img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+#celebrate {
+  width: 100%;
+  max-width: 1280px;
+  height: 554px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+#celebrate div {
+  flex: 1;
+}
+
+#celebrate h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#celebrate p {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  max-width: 450px;
+}
+
+#share-a-gift {
+  min-height: 738px;
+  text-align: center;
+  padding: 80px;
+}
+
+#share-a-gift h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.gifts-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.gift-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  width: 250px;
+  text-align: center;
+}
+
+.gift-card h3 {
+  font-size: 24px;
+  margin: 15px 0 5px;
+}
+
+.gift-card p {
+  color: #666;
+}
+
+#message {
+  min-height: 522px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+
+#message form {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+#message input {
+  padding: 15px 20px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+  width: 300px;
+  outline: none;
+}
+
+footer {
+  min-height: 400px;
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 15px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #666;
+}
+
+.copy-footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  color: #999;
+}
